@@ -112,7 +112,7 @@ export function Projects() {
                     {project.category} · {project.location}
                   </p>
                 </div>
-                <span className="text-sm font-medium text-foreground whitespace-nowrap">{project.year}</span>
+
               </div>
             </article>
           ))}

@@ -4,35 +4,35 @@ import { ArrowUpRight } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "Резиденция Светлая",
-    category: "Жилой дом",
-    location: "Москва, Россия",
-    year: "2024",
-    image: "/images/hously-1.png",
+    title: "Парная",
+    category: "Финская сауна",
+    location: "Кедр · до 6 человек",
+    year: "от 2 000 ₽/ч",
+    image: "https://cdn.poehali.dev/projects/38fef863-0ec5-41e7-86f6-9085d36307b9/bucket/54523b82-80a8-4e65-8927-17b58367d315.png",
   },
   {
     id: 2,
-    title: "Павильон Стекло",
-    category: "Коммерческий объект",
-    location: "Санкт-Петербург, Россия",
-    year: "2023",
-    image: "/images/hously-2.png",
+    title: "Комната отдыха",
+    category: "Зона релаксации",
+    location: "Деревянный декор · ТВ · диван",
+    year: "входит в аренду",
+    image: "https://cdn.poehali.dev/projects/38fef863-0ec5-41e7-86f6-9085d36307b9/bucket/fc0648f7-1e6c-4da7-a131-0f6ab7ccbabb.png",
   },
   {
     id: 3,
-    title: "Дом у моря",
-    category: "Жилой дом",
-    location: "Сочи, Россия",
-    year: "2023",
-    image: "/images/hously-3.png",
+    title: "Банные принадлежности",
+    category: "Дубовый веник · скраб · полотенце",
+    location: "Премиум комплект",
+    year: "от 500 ₽",
+    image: "https://cdn.poehali.dev/projects/38fef863-0ec5-41e7-86f6-9085d36307b9/bucket/c5046d57-7bf4-4f46-9a2b-bba1f11e40cc.png",
   },
   {
     id: 4,
-    title: "Северный приют",
-    category: "Гостиничный комплекс",
-    location: "Казань, Россия",
-    year: "2024",
-    image: "/images/hously-4.png",
+    title: "Баня под ключ",
+    category: "Всё включено",
+    location: "Парная + отдых + принадлежности",
+    year: "от 4 000 ₽/ч",
+    image: "https://cdn.poehali.dev/projects/38fef863-0ec5-41e7-86f6-9085d36307b9/bucket/54523b82-80a8-4e65-8927-17b58367d315.png",
   },
 ]
 
@@ -68,8 +68,8 @@ export function Projects() {
       <div className="container mx-auto px-6 md:px-12">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
           <div>
-            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Избранные работы</p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">Наши проекты</h2>
+            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наш комплекс</p>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">Фото бани</h2>
           </div>
           <a
             href="#"
@@ -112,7 +112,7 @@ export function Projects() {
                     {project.category} · {project.location}
                   </p>
                 </div>
-                <span className="text-muted-foreground/60 text-sm">{project.year}</span>
+                <span className="text-sm font-medium text-foreground whitespace-nowrap">{project.year}</span>
               </div>
             </article>
           ))}

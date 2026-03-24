@@ -61,7 +61,7 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-foreground transition-colors">
+                <a href="https://vk.com/novopolskiebanky" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
                   ВКонтакте
                 </a>
               </li>

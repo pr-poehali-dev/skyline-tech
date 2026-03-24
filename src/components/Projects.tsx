@@ -8,7 +8,7 @@ const projects = [
     category: "Финская сауна",
     location: "Кедр · до 6 человек",
     year: "от 2 000 ₽/ч",
-    image: "https://cdn.poehali.dev/projects/38fef863-0ec5-41e7-86f6-9085d36307b9/bucket/54523b82-80a8-4e65-8927-17b58367d315.png",
+    image: "https://cdn.poehali.dev/projects/38fef863-0ec5-41e7-86f6-9085d36307b9/bucket/d9d44479-5267-4e07-96ab-f08234be0336.jpeg",
   },
   {
     id: 2,

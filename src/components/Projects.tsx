@@ -18,14 +18,7 @@ const projects = [
     year: "входит в аренду",
     image: "https://cdn.poehali.dev/projects/38fef863-0ec5-41e7-86f6-9085d36307b9/bucket/fc0648f7-1e6c-4da7-a131-0f6ab7ccbabb.png",
   },
-  {
-    id: 3,
-    title: "Банные принадлежности",
-    category: "Дубовый веник · скраб · полотенце",
-    location: "Премиум комплект",
-    year: "от 500 ₽",
-    image: "https://cdn.poehali.dev/projects/38fef863-0ec5-41e7-86f6-9085d36307b9/bucket/c5046d57-7bf4-4f46-9a2b-bba1f11e40cc.png",
-  },
+
   {
     id: 4,
     title: "Баня под ключ",

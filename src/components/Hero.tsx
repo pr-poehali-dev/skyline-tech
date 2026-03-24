@@ -150,8 +150,8 @@ export function Hero() {
 
       <div className="absolute inset-0 z-20 pointer-events-none">
         <img
-          src="/images/hously-foreground.png"
-          alt="Мраморная кухонная столешница"
+          src="https://cdn.poehali.dev/projects/38fef863-0ec5-41e7-86f6-9085d36307b9/bucket/cb24813c-23a1-4998-bf7d-e43fa77d37ee.jpeg"
+          alt="Новогоднее украшение бани"
           className="w-full h-full object-cover object-center"
         />
       </div>

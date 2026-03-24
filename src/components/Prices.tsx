@@ -59,6 +59,20 @@ export function Prices() {
             </div>
           ))}
         </div>
+
+        <div className="mt-16">
+          <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-8">Дополнительно</p>
+          <div className="flex flex-wrap gap-4">
+            <div className="border border-border bg-background px-8 py-6 flex items-center justify-between gap-12">
+              <span className="text-lg font-medium">Веник дубовый</span>
+              <span className="text-2xl font-medium">400 ₽</span>
+            </div>
+            <div className="border border-border bg-background px-8 py-6 flex items-center justify-between gap-12">
+              <span className="text-lg font-medium">Веник берёзовый</span>
+              <span className="text-2xl font-medium">300 ₽</span>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   )

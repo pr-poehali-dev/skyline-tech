@@ -44,6 +44,7 @@ export function Footer() {
           <div>
             <h4 className="text-sm font-medium mb-4">Связь</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
+              <li className="leading-relaxed">Полевая улица, 2, деревня Новое Поле, Челябинск</li>
               <li>
                 <a href="mailto:hello@prostranstvo.ru" className="hover:text-foreground transition-colors">
                   hello@prostranstvo.ru

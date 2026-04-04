@@ -1,12 +1,5 @@
 const prices = [
   {
-    name: "Баня «Леший»",
-    capacity: "до 10 человек",
-    weekday: "2 800 ₽/ч",
-    weekend: "3 200 ₽/ч",
-    days: "Вт — Пт / Сб — Вс",
-  },
-  {
     name: "Банька №3 и №4",
     capacity: "до 12 человек",
     weekday: "2 700 ₽/ч",

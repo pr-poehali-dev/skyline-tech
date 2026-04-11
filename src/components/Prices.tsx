@@ -15,7 +15,7 @@ const prices = [
   },
   {
     name: "Банька №3",
-    capacity: "до 12 человек",
+    capacity: "до 10 человек",
     weekday: "2 800 ₽/ч",
     weekend: "3 200 ₽/ч",
     days: "Будни / Выходные",
